@@ -2,18 +2,12 @@
 <html>
     <head>
         <title>My First Website</title>
-        <style>
-            body {
-                background-color:#121212;
-                color: white;
-                font-family: Arial, sans-serif;
-                text-align: center;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
+    <script src="script.js"></script>
     <body>
         <h1>Hello World!</h1>
-        <p>Welcome to my first website!</p>
-        <button onclick="alert('Hello!')">Click Me!</button>
+        <p id="message">Welcome to my first website!</p>
+        <button onclick="changeMessage()">Click Me!</button>
     </body>
 </html>
